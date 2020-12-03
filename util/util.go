@@ -20,3 +20,7 @@ func ReadFile(path string) []byte {
 
 	return dat
 }
+
+type Pair struct {
+	a, b interface{}
+}
