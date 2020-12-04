@@ -1,9 +1,6 @@
 package main
 
-import (
-	"aoc/three"
-	"fmt"
-)
+import "aoc/four"
 
 func main() {
 
@@ -17,5 +14,9 @@ func main() {
 
 	// 3 December
 	//three.RunFirst()
-	fmt.Println(three.RunSecond())
+	//fmt.Println(three.RunSecond())
+
+	// 4 December
+	//four.RunFirst()
+	four.RunSecond()
 }
